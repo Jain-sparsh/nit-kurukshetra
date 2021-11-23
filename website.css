@@ -1,0 +1,256 @@
+@keyframes campus{
+    0%{   background-image: url('campus/1.jpg.crdownload');}
+    20%{    background-image: url('campus/2.jpeg');}
+    40%{  background-image: url('campus/3.jpg');}
+    60%{  background-image: url('campus/5.jpg');}
+    80%{  background-image: url('campus/4.jpg');}
+    100%{  background-image: url('campus/7.jpg');}
+
+}
+ 
+ 
+ 
+ 
+ 
+ /* header section starts*/
+ *{
+    font-family: 'Nunito', sans-serif;
+ }
+ #topbar{
+
+    height:55px;
+    background-color:#f5f6fa;
+   
+    box-sizing: border-box;
+
+
+}
+#topbar a{ text-decoration: none;
+    color:black;
+
+}
+#topbar p{float:left;
+   
+}
+
+
+ #topp{ float:left;
+    color:#718093;
+
+    
+}
+
+.padding{padding:0.5px 25px;
+    margin:0px;
+
+}
+/* logo section starts*/
+#logo{
+    background-color: #ffffff;
+
+
+}
+
+
+/*menu bar section starts*/
+
+
+#menubar{ 
+    overflow:auto;
+    background-color: #F97F51;
+    display:flex;
+
+
+}
+#menubar ul{
+   
+    list-style-type: none;
+}
+#menubar ul li{
+    float:left;
+    padding-right: 20px;
+    font-size: 20px;
+    color:white;
+
+
+}
+#menubar ul li a{
+    text-decoration: none;
+    color: white ;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+
+
+}
+/*header section finished*/
+
+
+#footer1{
+
+    background-color: #1B9CFC;
+    overflow: auto;
+}
+
+#footer1 p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    float:left;
+}
+#footer1 ul{
+    list-style-type: none;
+float:right;
+}
+#footer1 li{
+    color: white;
+    padding-bottom: 3px;
+    
+
+
+}
+#footer2{
+    color:white;
+    background-color: #182C61;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+/*home section starts*/
+#homediv{
+    width:50vw;
+    
+    height:400px;
+    background-image: url('campus/1.jpg.crdownload');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    animation-name: campus;
+    animation-duration:50s ;
+    animation-iteration-count: infinite;
+    float:left;
+    margin-bottom: 5px;
+margin-top:5px;
+box-sizing: border-box;
+}
+#homecontainer{
+    background-color:white;
+    overflow: auto;
+    margin-bottom: 5px;
+
+
+}
+#homep{
+    width:28vw;
+    float:right;
+    color:white;
+background-color: #25CCF7;
+margin-bottom: 5px;
+margin-top:5px;
+box-sizing: border-box;
+border: 1px double #25CCF7;
+border-radius: 6px;
+
+}
+#homep::first-line{ color: whitesmoke;
+    
+
+}
+#aboutpic{
+    float:right;
+}
+#aboutsecp{
+    overflow: auto;
+}
+#branch h1,h2,h3,h4,h5,h6{
+color:rebeccapurple;
+
+
+}
+table{
+
+    border:1px solid #2C3A47;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    text-align: center;
+}
+td{
+    border:1px solid #2C3A47;
+}
+
+th{ border:1px solid #2C3A47;
+
+}
+thead{
+    background-color: #58B19F;
+}
+.table{
+
+ background-color:#CAD3C8;}
+
+ @media only screen and (max-width:812px){
+
+
+
+        #homediv {
+            width: 100%;
+            height: 400px;
+            background-image: url(campus/1.jpg.crdownload);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            animation-name: campus;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+            float: left;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+    
+     #homep {
+        width: 100%;
+        float: right;
+        color: white;
+        background-color: #25CCF7;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        border: 1px double #25CCF7;
+        border-radius: 6px;
+    }
+
+   table{width:100%;}
+   .ppic{width:100%}
+
+  
+ 
+    
+
+ }
+ 
+
+ 
+ 
+@media only screen and (max-width:812px){
+
+
+
+    #menubar ul li{
+        float:none;
+        
+    
+        
+        padding:0px 0px 10px 0px;
+    }
+    #menubar ul{
+        padding-left: 20px;
+    }
+
+
+}
